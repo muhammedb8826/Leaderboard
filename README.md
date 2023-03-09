@@ -130,7 +130,7 @@ After you're finished please remove all the comments and instructions!
 
 > Link to github repository.
 
-- [To-Do list app](https://github.com/muhammedb8826/Leaderboard)
+- [Leaderboard list app](https://github.com/muhammedb8826/Leaderboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
