@@ -41,8 +41,12 @@ main {
   border: 2px solid black;
 }
 
-.name-and-score-container p {
+.name-and-score-container li {
   padding: 0.5rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .name-and-score-container :nth-child(even) {

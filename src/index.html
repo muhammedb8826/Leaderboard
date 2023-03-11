@@ -15,26 +15,19 @@
             <div class="score">
                 <div class="recent-score-and-refresh-btn">
                     <h2>Recent scores</h2>
-                    <button type="button">Refresh</button>
+                    <button type="button" id="refreshBtn">Refresh</button>
                 </div>
-                <div class="name-and-score-container">
-                    <p>name: 100</p>
-                    <p>name: 20</p>
-                    <p>name: 50</p>
-                    <p>name: 78</p>
-                    <p>name: 125</p>
-                    <p>name: 77</p>
-                    <p>name: 42</p>
-                </div>
+                <ul class="name-and-score-container">
+                </ul>
             </div>
             <div class="add-score">
                 <h2>Add your score</h2>
                 <div class="input-container">
-                    <form action="#" id="scoreForm">
-                      <input type="text" placeholder="Your name" required>
-                      <input type="number" placeholder="your score" required>
+                    <form id="scoreForm">
+                      <input type="text" placeholder="Your name" required id="playerName">
+                      <input type="number" placeholder="your score" required id="playerScore">
                       <div class="submit-btn">
-                          <button type="submit">Submit</button>
+                          <button type="submit" class="sumbit">Submit</button>
                       </div>
                     </form>
                 </div>
