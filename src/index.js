@@ -16,6 +16,8 @@ class Leaderboard {
         user: this.getuserInput.value,
         score: this.getuserScore.value,
       };
+      this.getuserInput.value = '';
+      this.getuserScore.value = '';
 
       addScore(gameId, player);
       const res = await loadData(gameId);
