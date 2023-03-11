@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  padding: 2rem;
+}
+
+.title-container div {
+  font-size: 3rem;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.score,
+.add-score {
+  width: 40%;
+}
+
+.recent-score-and-refresh-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-and-score-container {
+  margin-top: 2rem;
+  border: 2px solid black;
+}
+
+.name-and-score-container p {
+  padding: 0.5rem;
+}
+
+.name-and-score-container :nth-child(even) {
+  background-color: #e5e2e2;
+}
+
+.input-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.input-container form input {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.input-container form .submit-btn {
+  width: 100%;
+}
+
+.input-container form .submit-btn button {
+  float: right;
+  width: 25%;
+}
