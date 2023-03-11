@@ -126,7 +126,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- to be added later
+- [Click here to see live](https://muhammedb8826.github.io/Leaderboard/dist/)
 
 > Link to github repository.
 
