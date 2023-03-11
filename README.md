@@ -205,9 +205,10 @@ run:    ```
 
 > Some features are coming soon.
 
-- [ ] **Interactive list**
-- [ ] **Add and Remove items**
+
+- [ ] **Finish Crud**
 - [ ] **Drag and Drop**
+- [ ] **Interactive UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
