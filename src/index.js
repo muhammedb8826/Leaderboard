@@ -1,8 +1,8 @@
 import './style.css';
-import createGame from './modules/createGame.js';
 import loadData from './modules/loadData.js';
 import renderData from './modules/render.js';
 import gameId from './modules/gameId.js';
+import addScore from './modules/addScore.js';
 
 class Leaderboard {
   constructor() {
@@ -13,10 +13,11 @@ class Leaderboard {
     this.form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const player = {
-        name: this.getuserInput.value,
+        user: this.getuserInput.value,
         score: this.getuserScore.value,
       };
-      createGame(player);
+
+      addScore(gameId, player);
       const res = await loadData(gameId);
       renderData(res.result);
     });
