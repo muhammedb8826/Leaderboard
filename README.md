@@ -207,7 +207,7 @@ run:    ```
 
 - [ ] **Finish Crud**
 - [ ] **Drag and Drop**
-- [ ] ** Interactive UI**
+- [ ] **Interactive UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
