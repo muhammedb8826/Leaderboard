@@ -1,4 +1,5 @@
 import './style.css';
+
 import loadData from './modules/loadData.js';
 import renderData from './modules/render.js';
 import gameId from './modules/gameId.js';

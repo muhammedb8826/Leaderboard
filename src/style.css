@@ -20,18 +20,27 @@ main {
   flex-direction: column;
 }
 
-.title-container {
+header {
   padding: 2rem;
+  position: relative;
 }
 
-.title-container div {
+header h1 {
   font-size: 3rem;
   background-color: #1b335c;
-  text-align: center;
   padding: 0.5rem;
+  padding-left: 5rem;
   color: #ccc;
   border-radius: 0.4rem;
   border: 4px #ccc solid;
+}
+
+header img {
+  position: absolute;
+  width: 55px;
+  top: 50%;
+  left: 3rem;
+  transform: translateY(-50%);
 }
 
 .content-container {
@@ -74,7 +83,7 @@ button:hover {
   margin-top: 2rem;
   list-style: none;
   counter-reset: item;
-  height: 80%;
+  max-height: 40%;
   overflow: hidden;
   overflow-y: scroll;
 }
